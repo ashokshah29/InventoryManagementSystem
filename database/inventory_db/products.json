@@ -27,5 +27,179 @@
       }
     },
     "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a3"
+    },
+    "sku": "NOTE-001",
+    "name": "A5 Ruled Notebook",
+    "category": "Stationery",
+    "description": "200-page ruled notebook for daily notes",
+    "quantity": {
+      "$numberInt": "40"
+    },
+    "unitPrice": {
+      "$numberDecimal": "85.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "10"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a4"
+    },
+    "sku": "PENCIL-001",
+    "name": "HB Graphite Pencil",
+    "category": "Stationery",
+    "description": "HB pencil for writing and sketching",
+    "quantity": {
+      "$numberInt": "100"
+    },
+    "unitPrice": {
+      "$numberDecimal": "15.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "20"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a5"
+    },
+    "sku": "ERASER-001",
+    "name": "Soft White Eraser",
+    "category": "Stationery",
+    "description": "Soft eraser for clean pencil corrections",
+    "quantity": {
+      "$numberInt": "60"
+    },
+    "unitPrice": {
+      "$numberDecimal": "10.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "15"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a6"
+    },
+    "sku": "MARKER-001",
+    "name": "Black Whiteboard Marker",
+    "category": "Stationery",
+    "description": "Dry-erase black marker for whiteboards",
+    "quantity": {
+      "$numberInt": "8"
+    },
+    "unitPrice": {
+      "$numberDecimal": "55.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "10"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a7"
+    },
+    "sku": "STAPLER-001",
+    "name": "Desktop Stapler",
+    "category": "Office Supplies",
+    "description": "Compact stapler for office paperwork",
+    "quantity": {
+      "$numberInt": "12"
+    },
+    "unitPrice": {
+      "$numberDecimal": "250.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "5"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  },
+  {
+    "_id": {
+      "$oid": "6acdaabcf4f556cf2df535a8"
+    },
+    "sku": "FOLDER-001",
+    "name": "A4 Document Folder",
+    "category": "Office Supplies",
+    "description": "Reusable folder for A4 documents",
+    "quantity": {
+      "$numberInt": "30"
+    },
+    "unitPrice": {
+      "$numberDecimal": "45.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "10"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791863484922"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
   }
 ]
