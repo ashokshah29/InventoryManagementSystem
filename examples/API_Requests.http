@@ -1,0 +1,64 @@
+### VS Code REST Client / JetBrains HTTP Client example
+@baseUrl = http://localhost:8080
+@id = REPLACE_WITH_PRODUCT_ID
+
+### Create product
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "sku": "PEN-001",
+  "name": "Blue Ball Pen",
+  "category": "Stationery",
+  "description": "Blue ink ballpoint pen",
+  "quantity": 30,
+  "unitPrice": 15.50,
+  "lowStockThreshold": 5
+}
+
+### List all
+GET {{baseUrl}}/api/products
+
+### Find by ID
+GET {{baseUrl}}/api/products/{{id}}
+
+### Update a product
+PUT {{baseUrl}}/api/products/{{id}}
+Content-Type: application/json
+
+{
+  "sku": "PEN-001",
+  "name": "Blue Ball Pen - Updated",
+  "category": "Stationery",
+  "description": "New stock",
+  "quantity": 20,
+  "unitPrice": 16.00,
+  "lowStockThreshold": 5
+}
+
+### Add stock
+PATCH {{baseUrl}}/api/products/{{id}}/stock
+Content-Type: application/json
+
+{ "change": 10 }
+
+### Take stock out
+PATCH {{baseUrl}}/api/products/{{id}}/stock
+Content-Type: application/json
+
+{ "change": -3 }
+
+### Search
+GET {{baseUrl}}/api/products/search?keyword=pen
+
+### Low stock
+GET {{baseUrl}}/api/products/low-stock
+
+### Summary
+GET {{baseUrl}}/api/products/summary
+
+### Export CSV
+GET {{baseUrl}}/api/products/export/csv
+
+### Delete product
+DELETE {{baseUrl}}/api/products/{{id}}
