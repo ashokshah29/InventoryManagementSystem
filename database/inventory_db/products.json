@@ -1,0 +1,31 @@
+[
+  {
+    "_id": {
+      "$oid": "6accbb80b77c93fe4131786c"
+    },
+    "sku": "PEN-001",
+    "name": "Premium Blue Ball Pen",
+    "category": "Stationery",
+    "description": "Premium quality blue ink ballpoint pen",
+    "quantity": {
+      "$numberInt": "5"
+    },
+    "unitPrice": {
+      "$numberDecimal": "20.00"
+    },
+    "lowStockThreshold": {
+      "$numberInt": "10"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1791802240929"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1791804673973"
+      }
+    },
+    "_class": "com.pgs.inventorymanagement.model.Product"
+  }
+]
